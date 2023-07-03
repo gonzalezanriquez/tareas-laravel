@@ -52,7 +52,9 @@ Route::post('/admin/juegos', [
 Route::get('/admin/juegos/edit', [    JuegoController::class, 'edit'])->name('admin.edit-juego'); 
 #Route::get('/admin/juegos/{id}/edit', [JuegoController::class, 'edit'])->name('admin.edit-juego');
 
-Route::put('/admin/juegos/{id}', [JuegoController::class, 'update'])->name('admin.update-juego');
+Route::put('/admin/juegos/{id}', [
+    JuegoController::class, 'update'
+])->name('admin.update-juego');
 
 Route::get('/admin/agre-juego', [
     JuegoController::class, 'agre'

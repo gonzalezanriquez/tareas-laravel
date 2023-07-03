@@ -43,7 +43,7 @@ class JuegoController extends Controller
 
 
     public function update(Request $request, $id)
-    {    
+    {     
         $juego = Juego::findOrFail($id);
             $request->validate([
                 'nombre' => 'required|max:255',

@@ -1,0 +1,119 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+body {
+  background-color: rgb(88, 85, 85);
+}
+
+#card{
+  background-color:#e6ae2a;
+
+}
+
+h2{
+  color:#e6ae2a;
+}
+
+#verde{
+  color: yellow;
+}
+
+.link-custom {
+  color: #e75e8d;
+}
+
+.btn-outline-custom {
+  border-color: #e75e8d;
+  color: #e75e8d;
+}
+
+.btn-outline-custom:hover {
+  background-color: #e75e8d;
+  color: #fff;
+}
+
+.main-banner { 
+  background-position: center center;
+  background-size: cover;
+  min-height: 500px; 
+  border-radius: 23px;
+  padding: 80px 60px;
+}
+  
+  .main-banner h6 {
+    font-size: 50px; 
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 25px;
+  }
+  .main-banner h4 {
+      font-size: 35px;
+      font-style: normal;
+    color: #ec6090;
+    }
+  
+    .main-button a {
+    font-size: 14px;
+    color: #fff;
+    background-color: #e75e8d;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .main-button a:hover {
+    background-color: #fff;
+    color: #e75e8d;
+  }
+
+
+  .main-button-edit a {
+    font-size: 14px;
+    color: #fff;
+    background-color: #eea3bd;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .main-button-edit a:hover {
+    background-color: #fff;
+    color: #eea3bd;
+  }
+
+
+  
+  .main-button-elim a {
+    font-size: 14px;
+    color: #fff;
+    background-color: #c71654;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .main-button-elim a:hover {
+    background-color: #fff;
+    color: #c71654;
+  }
